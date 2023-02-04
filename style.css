@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 * {
     margin: 0;
@@ -101,6 +101,7 @@ li > a:hover {
 }
 
 #middle-top {
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,4 +120,27 @@ li > a:hover {
     width: 100px;
     border: 3px solid #3882f6;
     border-radius: 10px;
+}
+
+#quote {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 10px 50px;
+}
+
+q {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote > p {
+    margin-top: 30px;
+    align-self: flex-end;
+    font-weight: bold;
 }
